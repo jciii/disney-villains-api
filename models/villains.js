@@ -5,6 +5,4 @@ const villainsModel = (connection, Sequelize) => connection.define('villains', {
   slug: { type: Sequelize.STRING }
 }, { paranoid: true })
 
-
-
 module.exports = villainsModel

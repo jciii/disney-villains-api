@@ -25,5 +25,4 @@ const saveNewVillain = async (request, response) => {
   return response(201).send(newVillain)
 }
 
-
 module.exports = { getAllVillains, getVillainsBySlug, saveNewVillain }
